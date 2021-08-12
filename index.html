@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,210 +9,220 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/cabecalho.css" />
-    <link rel="stylesheet" href="css/chamada.css" />
-    <link rel="stylesheet" href="css/destaques.css" />
-    <link rel="stylesheet" href="css/diferenciais.css" />
-    <link rel="stylesheet" href="css/sobre.css" />
-    <link rel="stylesheet" href="css/planos.css" />
-    <link rel="stylesheet" href="css/contato.css" />
-    <link rel="stylesheet" href="css/institucional.css" />
-    <link rel="stylesheet" href="css/rodape.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
-    <header class="container cabecalho">
+    <header class="container header">
       <img
         src="img/logo-apeperia.svg"
         alt="Logo da Apeperia"
-        class="cabecalho_logo"
+        class="header-logo"
       />
-      <nav class="cabecalho_navegacao">
+      <nav class="header-nav">
         <ul>
-          <li class="cabecalho_link"><a href="#">Sobre</a></li>
-          <li class="cabecalho_link"><a href="#">Planos</a></li>
-          <li class="cabecalho_link"><a href="#">Blog</a></li>
-          <li class="cabecalho_link"><a href="#">Destaques</a></li>
-          <li class="cabecalho_link"><a href="#">Institucional</a></li>
-          <li class="cabecalho_link"><a href="#">Contato</a></li>
+          <li class="header-link"><a href="#">Sobre</a></li>
+          <li class="header-link"><a href="#">Planos</a></li>
+          <li class="header-link"><a href="#">Blog</a></li>
+          <li class="header-link"><a href="#">Destaques</a></li>
+          <li class="header-link"><a href="#">Institucional</a></li>
+          <li class="header-link"><a href="#">Contato</a></li>
         </ul>
       </nav>
     </header>
+
     <main>
-      <section class="container chamada">
-        <h1 class="chamada_titulo">Aplicativos Na Medida</h1>
-        <p class="chamada_texto">
+      <section class="container slogan">
+        <h1 class="slogan-title">Aplicativos Na Medida</h1>
+        <p class="slogan-description">
           Apeperia tem um jeito inovador de comparar e montar aplicativos para
           pequenas e médias empresas.
         </p>
-        <a href="#" class="chamada_botao botao">Conheça os planos</a>
+        <a href="#" class="button slogan-button">Conheça os planos</a>
       </section>
-      <section class="container destaques">
-        <h2 class="destaques_titulo">Destaques</h2>
+
+      <section class="container highlights">
+        <h2 class="highlights-title">Destaques</h2>
         <a href="#">
-          <figure class="destaques_painel">
+          <figure class="highlights-panel">
             <img
               src="img/comecando-criar-logotipo.png"
               alt="Painel do post sobre criação de logotipo"
-              class="destaques_painel-imagem"
+              class="highlights-panel-imagem"
             />
-            <figcaption class="destaques_painel-texto">
+            <figcaption class="highlights-panel-description">
               Conheça as primeiras etapas para a criação de um logotipo
             </figcaption>
           </figure>
         </a>
         <a href="#">
-          <figure class="destaques_painel">
+          <figure class="highlights-panel">
             <img
               src="img/dicas-fotografia.png"
               alt="Painel do post sobre fotografia com celular"
-              class="destaques_painel-imagem"
+              class="highlights-panel-imagem"
             />
-            <figcaption class="destaques_painel-texto">
+            <figcaption class="highlights-panel-description">
               Veja dicas de como fotografar usando seu celular
             </figcaption>
           </figure>
         </a>
-        <a href="#" class="botao destaques_botao"
-          >Receber destaques por email</a
-        >
+        <a href="#" class="button highlights-button">
+          Receber destaques por email
+        </a>
       </section>
-      <section class="container diferenciais">
-        <ul class="diferenciais_lista">
-          <li class="diferenciais_item diferenciais_item-tempo">
-            <h2 class="item_titulo">Tempo</h2>
-            <p class="item_texto">
+
+      <section class="container differentials">
+        <ul class="differentials-list">
+          <li class="differentials-item differentials-item-time">
+            <h2 class="differentials-item-title">Tempo</h2>
+            <p class="differentials-item-description">
               Tempo é importante! Trabalhamos em ritmo acelerado, atendendo
               rigorosamente aos prazos.
             </p>
           </li>
-          <li class="diferenciais_item diferenciais_item-foco">
-            <h2 class="item_titulo">Foco</h2>
-            <p class="item_texto">
+          <li class="differentials-item differentials-item-money">
+            <h2 class="differentials-item-title">Foco</h2>
+            <p class="differentials-item-description">
               Focamos no empreendimento! Oferecemos serviços de qualidade com
               preços acessíveis.
             </p>
           </li>
-          <li class="diferenciais_item diferenciais_item-especialistas">
-            <h2 class="item_titulo">Especialistas</h2>
-            <p class="item_texto">
+          <li class="differentials-item differentials-item-chemistry">
+            <h2 class="differentials-item-title">Especialistas</h2>
+            <p class="differentials-item-description">
               Equipe experiente e especializada! Testamos todos os produtos
               antes do lançamento.
             </p>
           </li>
         </ul>
       </section>
-      <section class="container sobre">
-        <div class="sobre_conteudo">
-          <h2 class="sobre_titulo">Sobre</h2>
-          <p class="sobre_texto">
+
+      <section class="container about">
+        <div class="about-content">
+          <h2 class="about-title">Sobre</h2>
+          <p class="about-description">
             Criamos aplicativos personalizados para
-            <strong class="sobre_texto-destaque">todas as pessoas</strong>!
+            <strong class="about-description-highlights">
+              todas as pessoas
+            </strong>
+            !
           </p>
-          <p class="sobre_texto">
+          <p class="about-description">
             A manutenção de um aplicativo não pode ser um custo extra para o
             cliente, Na Apeperia você assina nosso serviço e a manutenção já
             está inclusa. Assim, você não se preocupa com manutenção, é tudo por
             nossa conta.
           </p>
-          <p class="sobre_texto sobre_texto-destaque sobre_texto-divisao">
+          <p
+            class="
+              about-description
+              about-description-highlights
+              about-description-line
+            "
+          >
             Conte com uma equipe especializada e exclusiva pra projetos
             incríveis em qualquer plataforma.
           </p>
-          <ul class="sobre_plataformas">
+          <ul class="about-platforms">
             <li><img src="img/android.png" alt="Ícone do Android" /></li>
             <li><img src="img/blackberry.png" alt="Ícone da Blackberry" /></li>
             <li><img src="img/apple.png" alt="Ícone da Apple" /></li>
             <li><img src="img/windowsphone.png" alt="Ícone da Microsoft" /></li>
           </ul>
-          <p class="sobre_texto">
+          <p class="about-description">
             Desenvolvemos aplicativos para todas as plataformas
           </p>
         </div>
         <img
           src="img/sobre-apeperia.png"
           alt="Sobre a Apeperia"
-          class="sobre_imagem"
+          class="about-imagem"
         />
       </section>
-      <section class="container planos">
-        <h2 class="planos_titulo">Planos</h2>
-        <ul class="planos_cartoes">
-          <li class="cartao cartao-start">
-            <h3 class="cartao_titulo">Start</h3>
-            <article class="cartao_conteudo">
-              <p class="cartao_preco"><em>R$ 500</em></p>
-              <p class="cartao_texto">5 manutenções mensais</p>
-              <p class="cartao_texto">App SEO</p>
-              <p class="cartao_texto">1 sistema operacional</p>
-              <a href="plano.html" class="botao cartao_botao cartao_botao-start"
-                >Assinar plano</a
-              >
+
+      <section class="container plans">
+        <h2 class="plans-title">Planos</h2>
+        <ul class="plans-card">
+          <li class="card card-start">
+            <h3 class="card-title">Start</h3>
+            <article class="card-content">
+              <p class="card-price"><em>R$ 500</em></p>
+              <p class="card-text">App SEO</p>
+              <p class="card-text">5 manutenções mensais</p>
+              <p class="card-text">1 sistema operacional</p>
+              <a href="#" class="button card-button card-button-start">
+                Assinar plano
+              </a>
             </article>
           </li>
-          <li class="cartao cartao-ultra">
-            <h3 class="cartao_titulo">Ultra</h3>
-            <article class="cartao_conteudo">
-              <p class="cartao_preco"><em>R$ 1500</em></p>
-              <p class="cartao_texto">20 manutenções mensais</p>
-              <p class="cartao_texto">App SEO</p>
-              <p class="cartao_texto">4 sistemas operacionais</p>
-              <p class="cartao_texto">24h de atendimento</p>
-              <a href="" class="botao cartao_botao cartao_botao-ultra"
-                >Assinar plano</a
-              >
+          <li class="card card-ultra">
+            <h3 class="card-title">Ultra</h3>
+            <article class="card-content">
+              <p class="card-price"><em>R$ 1500</em></p>
+              <p class="card-text">App SEO</p>
+              <p class="card-text">20 manutenções mensais</p>
+              <p class="card-text">4 sistemas operacionais</p>
+              <p class="card-text">24h de atendimento</p>
+              <a href="#" class="button card-button card-button-ultra">
+                Assinar plano
+              </a>
             </article>
           </li>
-          <li class="cartao cartao-mega">
-            <h3 class="cartao_titulo">Mega</h3>
-            <p class="cartao_preco"><em>R$ 1000</em></p>
-            <article class="cartao_conteudo">
-              <p class="cartao_texto">10 manutenções mensais</p>
-              <p class="cartao_texto">App SEO</p>
-              <p class="cartao_texto">2 sistemas operacionais</p>
-              <a href="" class="botao cartao_botao cartao_botao-mega"
-                >Assinar plano</a
-              >
+          <li class="card card-mega">
+            <h3 class="card-title">Mega</h3>
+            <article class="card-content">
+              <p class="card-price"><em>R$ 1000</em></p>
+              <p class="card-text">App SEO</p>
+              <p class="card-text">10 manutenções mensais</p>
+              <p class="card-text">2 sistemas operacionais</p>
+              <a href="#" class="button card-button card-button-mega">
+                Assinar plano
+              </a>
             </article>
           </li>
         </ul>
       </section>
-      <section class="container contato">
-        <h2 class="contato_titulo">Contato</h2>
+
+      <section class="container contact">
+        <h2 class="contact-title">Contato</h2>
         <p>Entre em contato com a gente</p>
-        <a href="contato.html" class="botao contato_botao">Entre em contato</a>
+        <a href="#" class="button contact-button">Entre em contato</a>
       </section>
+
       <section class="container institucional">
-        <h2 class="institucional_titulo">Institucional</h2>
-        <div class="institucional_conteudo">
-          <div class="institucional_informacoes">
-            <p class="institucional_descricao">
+        <h2 class="institucional-title">Institucional</h2>
+        <div class="institucional-content">
+          <div class="institucional-info">
+            <p class="institucional-description">
               Um pouco mais sobre a Apeperia
             </p>
-            <address class="institucional_endereco">
+            <address class="institucional-address">
               Rua Vergueiro, 3185 <br />
               Vila Mariana, São Paulo
-              <article class="institucional_contato">
+              <article class="institucional-contact">
                 <p>
                   <a
                     href="tel:+551155712751"
-                    class="institucional_contato-telefone"
-                    >(11) 5571-2751</a
+                    class="institucional-contact-phone"
                   >
+                    (11) 5571-2751
+                  </a>
                   ou
                   <a
                     href="mailto:contato@apeperia.com"
-                    class="institucional_contato-email"
-                    >contato@apeperia.com</a
+                    class="institucional-contact-email"
                   >
+                    contato@apeperia.com
+                  </a>
                 </p>
               </article>
             </address>
           </div>
           <iframe
-            class="institucional_video"
-            height="400"
             src="https://www.youtube.com/embed/AJ6Mkx1KEns"
+            class="institucional-video"
+            height="400"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
@@ -220,37 +230,38 @@
         </div>
       </section>
     </main>
-    <footer class="container rodape">
+
+    <footer class="container footer">
       <img
         src="img/logo-apeperia.svg"
         alt="Logo da Apeperia"
-        class="rodape_log"
+        class="footer-logo"
       />
-      <ul class="rodape_social">
+      <ul class="footer-social">
         <li>
-          <a href="#" class="rodape_midia"
-            ><img src="img/facebook.png" alt="Ícone do Facebook"
-          /></a>
+          <a href="#" class="footer-social-link">
+            <img src="img/facebook.png" alt="Ícone do Facebook" />
+          </a>
         </li>
         <li>
-          <a href="#" class="rodape_midia"
-            ><img src="img/twitter.png" alt="Ícone do Twitter"
-          /></a>
+          <a href="#" class="footer-social-link">
+            <img src="img/twitter.png" alt="Ícone do Twitter" />
+          </a>
         </li>
         <li>
-          <a href="#" class="rodape_midia"
-            ><img src="img/instagram.png" alt="Ícone do Instagram"
-          /></a>
+          <a href="#" class="footer-social-link">
+            <img src="img/instagram.png" alt="Ícone do Instagram" />
+          </a>
         </li>
       </ul>
       <nav>
-        <ul class="rodape_navegacao">
-          <li class="rodape_link"><a href="#">Sobre</a></li>
-          <li class="rodape_link"><a href="#">Planos</a></li>
-          <li class="rodape_link"><a href="#">Blog</a></li>
-          <li class="rodape_link"><a href="#">Destaques</a></li>
-          <li class="rodape_link"><a href="#">Institucional</a></li>
-          <li class="rodape_link"><a href="#">Contato</a></li>
+        <ul class="footer-navigation">
+          <li class="footer-navigation-link"><a href="#">Sobre</a></li>
+          <li class="footer-navigation-link"><a href="#">Planos</a></li>
+          <li class="footer-navigation-link"><a href="#">Blog</a></li>
+          <li class="footer-navigation-link"><a href="#">Destaques</a></li>
+          <li class="footer-navigation-link"><a href="#">Institucional</a></li>
+          <li class="footer-navigation-link"><a href="#">Contato</a></li>
         </ul>
       </nav>
     </footer>
